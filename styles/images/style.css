@@ -1,0 +1,253 @@
+
+*{
+    margin: 0;
+    font-family:'Work Sans';
+}
+
+.B-container{
+ color: aliceblue;
+ background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+
+}
+.B-section{
+    text-align: right;
+    padding: 200px;
+
+}
+.B-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    margin-left: 800px;
+    
+}
+.B-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 980px;
+    margin-top: 25px;
+}
+.B-button{
+    border-radius: 7px;
+    border: 0;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 25px;
+    
+/* class of failure */
+}
+.failure-contain{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 130px;
+}
+.failures-omg{
+   padding: 250px;
+
+  
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    
+    
+}
+.failure-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 20px;
+    margin-right: 80px;   
+   
+    
+}
+.class-condition ul{
+    color: #444343 ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    list-style: none;
+    padding-right: 5px;
+   
+}
+.class-condition li:before {
+    content: '✓';
+    color: #16D887;
+    padding-right: 5px;
+   
+    
+}
+
+/* <!-- its section plan bro --> */
+
+.its-planSection{
+
+    
+
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+
+}
+.plan-container{
+   display: flex;
+   gap: 80px;
+   text-align: center;
+   margin-left: 300px;
+   margin-top: 50px;
+
+}
+.plan-sub-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+.plan-description{
+
+font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+color: #737272;
+}
+
+
+/* Positive style */
+
+.positive-mindset{
+    background-image: url(../images/watch.png),linear-gradient(to right, rgb(62, 147, 243), rgba(255, 96, 4, 0.08));
+    width: 1170px;
+    height: 260px;
+    margin-left: 300px;
+    margin-top: 100px;
+    background-blend-mode: color-burn;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border-width: 0px;
+}
+.positive-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-left: 70px;
+    padding-top: 50px;
+    margin-right: 600px;
+
+
+color: #FFFFFF;
+
+}
+.positive-button
+{
+   width: 160px;
+   height: 64px;
+   margin-top: 20px;
+   border-radius: 7px;
+    border: 0;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: 70px;
+   
+
+}
+
+/* its footer bro */
+
+
+footer {
+    margin-top: 200px;
+    height: 677px;
+    background-color: #151414;
+    color: white;
+}
+
+.footer-section {
+    display: flex;
+    color: #ffffff;
+    padding: 200px 230px 0px;
+    gap: 550px;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.future-description {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 470px;
+}
+
+.email {
+    margin: 20px 0px;
+}
+
+.phone {
+    margin: 20px 0px 30px;
+}
+
+.images {
+    display: flex;
+    gap: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.subscribe-Title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.input-Email {
+    width: 350px;
+    height: 60px;
+    background-color: #151414;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+::placeholder {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-left: 18px;
+}
+
+.subscribe-button {
+    border-radius: 7px;
+    border: 0;
+    margin-top: 30px;
+    height: 70px;
+    width: 180px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
